@@ -1,0 +1,338 @@
+<% kdGenel.Open "SELECT * FROM tbl_Temalar",
+adoCon,
+1,
+3 If Not kdGenel.EOF Then temarenk=kdGenel("temarenk") zeminresim=kdGenel("zeminresim") zeminrenk=kdGenel("zeminrenk") sayfagenislik=kdGenel("sayfagenislik") repeat=kdGenel("repeat") position=kdGenel("position") End If KdGenel.Close %><style type="text/css">< !-- body {
+    background-image: url(upload/tema/_%25%3dzeminresim%25.html>);
+    background-color: #<%=zeminrenk%>;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-repeat: <%=repeat%>;
+    BACKGROUND-POSITION: <%=position%>;
+
+
+}
+
+
+
+.yayinsaat {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    text-decoration: none;
+}
+
+
+.yayinadi {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #973C3C;
+    text-decoration: none;
+}
+
+
+
+
+.normal {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #555555;
+    text-decoration: none;
+}
+
+
+.normalk1 {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #555555;
+    text-decoration: none;
+}
+
+
+
+.normalbold {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555555;
+    text-decoration: none;
+}
+
+
+
+
+
+.baslik {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555555;
+    text-decoration: none;
+}
+
+
+.normalmavi {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #008ae1;
+    text-decoration: none;
+}
+
+.normalmavik1 {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #008ae1;
+    text-decoration: none;
+}
+
+
+.normalmin {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #23252E;
+    text-decoration: none;
+}
+
+
+.slogan1 {
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #CDE4A3;
+    text-decoration: none;
+}
+
+
+.slogan2 {
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    color: #E2C7AA;
+    text-decoration: none;
+}
+
+
+.slogan3 {
+    font-family: tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    color: #E33841;
+    text-decoration: none;
+}
+
+
+
+.menubeyaz {
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
+
+
+
+.suandayayinda {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+
+
+
+.adres_kalin {
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    color: #6B739C;
+    text-decoration: none;
+}
+
+.adres {
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link {
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    color: #6B739C;
+    text-decoration: none;
+}
+
+.mavilink {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #008ae1;
+    text-decoration: none;
+}
+
+.ustmenu {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+
+.ustmenu2 {
+
+    font-family: Century Gothic, arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+
+    -moz-text-shadow: 0px 1px 2px #000;
+    /* Mozilla */
+    -webkit-text-shadow: 0px 1px 2px #000;
+    /* Chrome ve Safari */
+    text-shadow: 0px 1px 2px #000;
+    /* Standart CSS Kodu */
+
+
+}
+
+.altmenu {
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+    text-decoration: none;
+}
+
+.altmenumin {
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.ustkayan1 {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #434445;
+    text-decoration: none;
+}
+
+.ustkayan2 {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #d5da7b;
+    text-decoration: none;
+}
+
+.ustkayan3 {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ea2e49;
+    text-decoration: none;
+}
+
+
+
+.resimstiltum {
+
+    /* golge */
+
+    -moz-box-shadow: 0px 0px 4px #000;
+    -webkit-box-shadow: 0px 0px 4px #000;
+    box-shadow: 0px 0px 4px #000;
+    /* For I E 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+    /* For I E 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+
+    /* border */
+
+    border: 2px #f7f7f7 solid;
+
+    /* kenar oval */
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    behavior: url(border-radius.html);
+}
+
+
+.resimstiltum2 {
+
+    /* golge */
+
+    -moz-box-shadow: 0px 0px 2px #000;
+    -webkit-box-shadow: 0px 0px 2px #000;
+    box-shadow: 0px 0px 2px #000;
+    /* For I E 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#000000')";
+    /* For I E 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#000000');
+
+    /* border */
+
+    border: 1px #f7f7f7 solid;
+
+    /* kenar oval */
+
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    behavior: url(border-radius.html);
+}
+
+
+.icgolge {
+
+    /* icgolge */
+
+    -moz-box-shadow: inset 0px 0px 10px #000;
+    /* Mozilla */
+    -webkit-box-shadow: inset 0px 0px 10px #000;
+    /* Chrome ve Safari */
+    box-shadow: inset 0px 0px 10px #000;
+    /* Standart CSS Kodu */
+
+}
+
+.saydamlik {
+
+    /* saydamlik */
+
+    opacity: 0.85;
+    -filter: alpha(opacity=85);
+
+}
+
+.imgkenaroval {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+--></style>
